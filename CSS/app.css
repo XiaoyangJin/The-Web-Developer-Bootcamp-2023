@@ -5,10 +5,14 @@ h2 {
 
 button {
     color: teal;
-    background-color: bisque;
+    background-color: #C5E9A8;
 }
 
 p {
     color: olive;
     background: rgb(233, 230, 168);
+}
+
+body {
+    background-color: #a19;
 }
