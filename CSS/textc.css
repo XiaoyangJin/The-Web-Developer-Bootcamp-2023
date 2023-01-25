@@ -2,8 +2,13 @@ h1 {
     text-align: center;
     /* width: 50%; */
     font-weight: 700;
+    text-decoration: green wavy underline;
 }
 
 p {
     font-weight: 400;
 }
+
+/* a {
+    text-decoration: none;
+} */
