@@ -5,6 +5,9 @@ h1 {
     text-decoration: green wavy underline;
     letter-spacing: 8px;
     font-size: 70px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-family: Segoe UI, Futura; */
+    font-family: fantasy;
 }
 
 p {
