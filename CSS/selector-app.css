@@ -43,3 +43,11 @@ span {
 footer a {
     color: #283618;
 }
+
+input+button {
+    background-color: #ccd5ae;
+}
+
+h2+button {
+    background-color: #bc6c25;
+}
