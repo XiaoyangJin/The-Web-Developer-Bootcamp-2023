@@ -57,3 +57,17 @@ footer>a {
     font-size: 20px;
     color: #3a5a40;
 }
+
+input[type="password"] {
+    color: #219ebc;
+}
+
+section[class="post"] {
+    background-color: #dda15e;
+}
+
+/* better way is use section.post; same type */
+
+a[href*="attribute_selector"] {
+    color: red;
+}
