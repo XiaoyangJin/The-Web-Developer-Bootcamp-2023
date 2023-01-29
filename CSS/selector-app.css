@@ -38,6 +38,8 @@ span {
 
 .post a {
     color: #dda15e;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 footer a {
@@ -62,12 +64,31 @@ input[type="password"] {
     color: #219ebc;
 }
 
-section[class="post"] {
+/* section[class="post"] {
     background-color: #dda15e;
-}
+} */
 
 /* better way is use section.post; same type */
 
 a[href*="attribute_selector"] {
     color: red;
+}
+
+/* button:hover {
+    background-color: #1d3557;
+    color: white;
+    /* cannot change the Sign Up button because it losing the ID specification */
+/* } */
+
+.post button:hover {
+    background-color: #283618;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #f4acb7;
 }
