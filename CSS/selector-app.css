@@ -21,3 +21,13 @@ h2 {
 #signup {
     background-color: #283618;
 }
+
+span {
+    color: #dda15e;
+}
+
+.tag {
+    background-color: #d4a373;
+    color: #fefae0;
+    font-size: 16px;
+}
