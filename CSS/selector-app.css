@@ -31,3 +31,15 @@ span {
     color: #fefae0;
     font-size: 16px;
 }
+
+/* span a {
+    color: #dda15e;
+} */
+
+.post a {
+    color: #dda15e;
+}
+
+footer a {
+    color: #283618;
+}
