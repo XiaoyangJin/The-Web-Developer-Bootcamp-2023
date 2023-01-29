@@ -51,3 +51,9 @@ input+button {
 h2+button {
     background-color: #bc6c25;
 }
+
+footer>a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #3a5a40;
+}
