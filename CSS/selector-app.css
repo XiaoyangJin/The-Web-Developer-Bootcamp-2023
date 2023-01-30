@@ -96,3 +96,15 @@ a:hover {
 .post:nth-of-type(2n) {
     background-color: #fcf6bd;
 }
+
+h2::first-letter {
+    font-size: 40px;
+}
+
+p::first-line {
+    color: #f4acb7;
+}
+
+::selection {
+    background-color: #f4acb7;
+}
