@@ -1,18 +1,21 @@
 span {
     background-color: palevioletred;
     border: 1px solid black;
-    width: 500px;
+    /* width: 500px; */
     padding: 50px;
     margin: 50px;
+    display: block;
 }
 
 
 h1 {
     background-color: paleturquoise;
     border: 1px solid black;
-    width: 300px;
+    /* width & height would be gnored when display: inline */
+    /* width: 300px; */
     padding: 50px;
     margin: 100px;
+    display: inline;
 }
 
 
