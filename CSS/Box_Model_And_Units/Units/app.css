@@ -16,8 +16,10 @@ html {
 
 
 #ems h2 {
-    /* em: 1em equals the font-size of the parent */
+    /* font-size: 1em equals the font-size of the parent */
     font-size: 2em;
+    /* With other properties, 1em is equal to the computed font-size 
+    of the element itself */
     margin-left: 1em;
 }
 
@@ -34,12 +36,14 @@ html {
 }
 
 #ems ul {
-    font-size: 1.5em;
+    font-size: 0.9em;
 }
 
 button {
     font-size: 1em;
     padding: 0 1em;
+    /* if we do not use em, the border-radius would not grow as size
+    but would remain the same abs look */
     border-radius: 0.5em;
     background-color: #2a9d8f;
     color: white;
