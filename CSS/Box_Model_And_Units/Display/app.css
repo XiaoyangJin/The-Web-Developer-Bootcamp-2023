@@ -26,5 +26,6 @@ div {
     border: 5px solid black;
     display: inline-block;
     margin: 50px;
-
+    /* none means it will just dissapear */
+    /* display: none; */
 }
