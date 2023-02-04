@@ -34,7 +34,8 @@ div {
 }
 
 #fixed #middle {
+    /* very similar with: -webkit-sticky */
     position: fixed;
     top: 0;
-    left: 400px;
+    left: 100px;
 }
