@@ -1,5 +1,5 @@
 body {
-    font-family: Montserrat, sans-serif;
+    font-family: Babylonica, sans-serif;
 }
 
 main {
@@ -12,11 +12,13 @@ h1 {
     margin-bottom: 0;
 }
 
-h1 + h2 {
+h1+h2 {
     margin-top: 10px;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: Roboto, sans-serif;
     font-weight: 100;
 }
