@@ -1,0 +1,19 @@
+img {
+    /* width: 100px; */
+    /* we'll not use a hard width, cause it's will not responnd to size change of the whole page*/
+    width: 30%;
+    /* margin: 20px; */
+    /* 10% / 6 */
+    /* margin: 1.6666%; */
+    margin: calc(10%/6);
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
