@@ -6,15 +6,34 @@ h1 {
     font-size: 6em;
     text-align: center;
 }
+
 nav {
     font-size: 1.5em;
 }
 
-ul,li {
+ul,
+li {
     display: inline;
     margin: 0;
     padding: 0;
 }
 
+/* @media(min-width: 600px) and (max-width: 800px) {
+    h1 {
+        color: purple;
+    }
+} */
 
+@media(max-width: 700px) {
+    h1 {
+        color: red;
+    }
+}
 
+@media(orientation: landscape) {
+
+    /* 横屏 */
+    body {
+        background-color: aqua;
+    }
+}
