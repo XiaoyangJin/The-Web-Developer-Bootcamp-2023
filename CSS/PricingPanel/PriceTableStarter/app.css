@@ -214,3 +214,7 @@ body {
 }
 
 /* hover effect */
+.pricing-button:hover,
+.pricing-button:focus {
+    background-color: #e1f1ff;
+}
