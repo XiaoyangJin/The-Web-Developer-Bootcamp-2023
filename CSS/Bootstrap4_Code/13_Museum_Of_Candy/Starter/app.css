@@ -28,3 +28,11 @@ body {
     font-size: 3.5rem;
     font-weight: 100;
 }
+
+/* responsive font size */
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+        font-weight: 100;
+    }
+}
