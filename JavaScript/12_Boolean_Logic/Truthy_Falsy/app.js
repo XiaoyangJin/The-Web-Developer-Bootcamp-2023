@@ -1,5 +1,6 @@
 const userInput = prompt("Enter something");
 
+//this is count as falsy if nothing be input
 if (userInput) {
     console.log("TRUTHY!")
 } else {
